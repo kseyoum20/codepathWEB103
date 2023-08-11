@@ -1,0 +1,110 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  color: rgb(255, 137, 224);
+  width: calc(100% - 32px);
+  opacity: 1;
+}
+
+.card h2 {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  opacity: 1;
+}
+
+.card img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  opacity: 1;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: rgb(213, 63, 173);
+  color: white;
+  padding: 4px 8px;
+  margin: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  opacity: 1;
+  margin-left: 5px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: darkgray;
+  opacity: 1;
+}
+
+.addCreatorForm {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+}
+
+.addCreatorForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  width: 100%;
+  opacity: 1;
+}
+
+.addCreatorForm input,
+.addCreatorForm textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  opacity: 1;
+}
+
+.addCreatorForm button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 144, 225);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  opacity: 1;
+
+  &:hover {
+    background-color: darkblue;
+  }
+}
+.creatorsCard .card {
+  height: 300px;
+  overflow: hidden;
+  opacity: 1;
+  position: relative;
+}
+.creatorsCard .button-container {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.image-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 80px;
+  left: 160px;
+}
+.shortened-description {
+  bottom: 30px;
+  position: absolute;
+}
